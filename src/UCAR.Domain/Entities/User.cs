@@ -1,8 +1,9 @@
 ﻿using System;
+using UCAR.Domain.Common;
 
 namespace UCAR.Domain.Entities
 {
-    public class User
+    public class User : BaseEntity
     {
         public string Name { get; set; }
 
